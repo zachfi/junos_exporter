@@ -1,0 +1,7 @@
+junos:
+  hosts:
+    - "host1.example.com"
+    - "host2.example.com"
+  username: "junosuser"
+  keyfile: "/home/junosuser/.ssh/id_ed25519"
+

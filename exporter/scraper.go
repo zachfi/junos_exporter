@@ -10,7 +10,7 @@ var (
 	macAddress = prometheus.NewGaugeVec(prometheus.GaugeOpts{
 		Name: "mac",
 		Help: "A individual MAC Adrress",
-	}, []string{"ip", "day"})
+	}, []string{"ip", "mac"})
 )
 
 func init() {
